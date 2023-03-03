@@ -32,7 +32,7 @@ return (0);
  * Return: If tree is NULL, return 0, else return balance factor.
  */
 int balance(const binary_tree_t *tree)
- 
+{
 return (tree != NULL ? height(tree->left) - height(tree->right) : 0);
 }
 
